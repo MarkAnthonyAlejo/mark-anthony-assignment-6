@@ -1,13 +1,13 @@
-package com.coderscampus.assignment6;
+package com.coderscampus.assignment6.domain;
 
 import java.time.YearMonth;
 
-public class SalesRecords {
+public class SalesRecord {
 
     private YearMonth date;
     private int sales;
 
-    public SalesRecords(YearMonth date, int sales){
+    public SalesRecord(YearMonth date, int sales){
         this.date = date;
         this.sales = sales;
     }
